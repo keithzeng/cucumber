@@ -3,6 +3,8 @@ Given(/^a board like this:$/) do |table|
 end
 
 When(/^player x plays in row (\d+), column (\d+)$/) do |row, col|
+  row, col = row.to_i, col.to_i
+  @board[row][col] = 'x'
 end
 
 
