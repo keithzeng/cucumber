@@ -2,8 +2,10 @@ source 'https://rubygems.org'
 
 source :rubygems
 gem 'sinatra'
+gem 'service_manager'
 group :development do
   gem 'rspec'
   gem 'cucumber'
   gem 'capybara'
+  gem 'launchy'
 end
