@@ -29,6 +29,5 @@ require_relative "../../lib/balance_store"
 require_relative "../../lib/transaction_queue"
 
 Before do
-  BalanceStore.new.balance = 0
   TransactionQueue.clear
 end
