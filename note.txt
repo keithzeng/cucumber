@@ -1,0 +1,23 @@
+Command Commands:
+cucumber --format progress
+cucumber test.feature —dry-run
+cucumber --tags @add
+
+Keyword:
+Feature
+Background: with same feature file, execute before every scenario
+Scenario
+Given
+When
+Then
+And
+But
+*
+Scenario Outline
+Examples
+
+Helpful pages:
+p49=regex shorthand
+p118=Transform with regex
+p142=Sinatra
+

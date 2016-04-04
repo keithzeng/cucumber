@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
 
-gem "cucumber"
-gem "rspec"
+source :rubygems
+gem 'sinatra'
+group :development do
+  gem 'rspec'
+  gem 'cucumber'
+  gem 'capybara'
+end
